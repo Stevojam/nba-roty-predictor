@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "nba-roty-predictor"
+version = "0.1.0"
+description = ""
+authors = ["Steve James <91149539+Stevojam@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.1.4"
+tqdm = "^4.66.1"
+requests = "^2.31.0"
+seaborn = "^0.13.0"
+plotly = "^5.18.0"
+beautifulsoup4 = "^4.12.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
